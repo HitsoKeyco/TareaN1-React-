@@ -1,0 +1,48 @@
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app {
+    background-color:rgb(147, 146, 151);
+    width: 300px;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    border-radius: 12px;
+    margin-bottom: 15px;
+
+}
+
+button {
+    height: 50px;
+    width: 75px;
+    border: none;
+    margin: 2px;
+    border-radius: 5px;
+    background-color:gray;
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(167, 163, 163);
+    color: black;
+}
+
+.showHidden {
+    width: 150px;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    
+}
